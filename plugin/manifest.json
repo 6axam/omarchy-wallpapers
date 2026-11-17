@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "maks.wallpapers",
+  "name": "Wallpapers",
+  "version": "1.0.0",
+  "author": "6axam",
+  "description": "Wallpaper gallery and random desktop wallpaper rotation",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Wallpapers",
+    "description": "Open the wallpaper gallery",
+    "category": "Utility",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}

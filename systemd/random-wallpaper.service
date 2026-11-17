@@ -1,0 +1,13 @@
+[Unit]
+Description=Random Omarchy wallpaper rotation
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python %h/.local/share/omarchy-wallpapers/wallpaper_rotation.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=graphical-session.target
