@@ -10,7 +10,7 @@ BarWidget {
     implicitHeight: button.implicitHeight
     Process {
         id: gallery
-        command: ["/usr/bin/python", Quickshell.env("HOME") + "/.local/share/omarchy-wallpapers/gallery.py"]
+        command: [Quickshell.env("HOME") + "/.local/share/omarchy-wallpapers/omarchy-wallpapers", "gui"]
     }
     BarIconButton {
         id: button

@@ -5,7 +5,7 @@ PartOf=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python %h/.local/share/omarchy-wallpapers/wallpaper_rotation.py
+ExecStart=%h/.local/share/omarchy-wallpapers/omarchy-wallpapers daemon
 Restart=on-failure
 RestartSec=10
 
